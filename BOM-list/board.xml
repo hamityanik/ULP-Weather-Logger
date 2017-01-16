@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/mhamityanik/Documents/KiCad/ESP-03_weather/board.sch</source>
+    <date>2017 January 13, Friday 00:36:07</date>
+    <tool>Eeschema 4.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>TPS61025</value>
+      <footprint>footprints:TI_DRC_S-PVSON-N10</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps61025.pdf</datasheet>
+      <fields>
+        <field name="kicost:Manf#">TPS61025DRCR</field>
+        <field name="kicost:Manf">Texas Instruments</field>
+        <field name="kicost:Desc">IC REG BST 3.3V 1.5A SYNC 10SON</field>
+      </fields>
+      <libsource lib="library" part="TPS6102X"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58261506</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>6.8uH</value>
+      <footprint>footprints:Tayo_Yuden_NR40xx</footprint>
+      <fields>
+        <field name="kicost:Manf#">LQH32PN6R8NN0L</field>
+        <field name="kicost:Manf">Murata Electronics</field>
+        <field name="kicost:Desc">FIXED IND 6.8UH 850MA 240 MOHM</field>
+      </fields>
+      <libsource lib="library" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58261C7B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2.2uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <fields>
+        <field name="kicost:Manf">Murata Electronics</field>
+        <field name="kicost:Manf#">GRM21BR71A225KA01L</field>
+        <field name="kicost:Desc">CAP CER 2.2UF 10V X7R 0805</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58261D9A</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <footprint>footprints:Keystone_1015_Holder_Battery_AA</footprint>
+      <fields>
+        <field name="kicost:Manf">Keystone Electronics</field>
+        <field name="kicost:Manf#">1015</field>
+        <field name="kicost:Desc">HOLDER BATTERY AA</field>
+      </fields>
+      <libsource lib="library" part="Battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58261E41</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>0R</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603JR-070RL</field>
+        <field name="kicost:Desc">RES SMD 0.0OHM JUMPER 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58261EC9</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>DNP</value>
+      <footprint>footprints:R_0603</footprint>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58261F14</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>0R</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603JR-070RL</field>
+        <field name="kicost:Desc">RES SMD 0.0OHM JUMPER 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58261FB5</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>DNP</value>
+      <footprint>footprints:R_0603</footprint>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58261FBB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>footprints:C_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Murata Electronics</field>
+        <field name="kicost:Manf#">GRM188R61A106KE69D</field>
+        <field name="kicost:Desc">CAP CER 10UF 10V X5R 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58262325</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100uF</value>
+      <footprint>footprints:TantalC_SizeB_EIA-3528_Reflow</footprint>
+      <fields>
+        <field name="kicost:Manf">AVX Corporation</field>
+        <field name="kicost:Manf#">F930J107MBA</field>
+        <field name="kicost:Desc">CAP TANT 100UF 6.3V 20% 1411</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58262697</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ESP8266-ESP-03</value>
+      <footprint>footprints:ESP8266-ESP-03</footprint>
+      <fields>
+        <field name="kicost:Manf">Ai-Thinker</field>
+        <field name="kicost:Manf#">ESP-03</field>
+        <field name="kicost:Desc">TXRX ESP8266 MOD WIFI CHIP ANT</field>
+      </fields>
+      <libsource lib="library" part="ESP8266-ESP-03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58262B25</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603JR-0710KL</field>
+        <field name="kicost:Desc">RES SMD 10K OHM 5% 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58262FCE</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>RESET</value>
+      <footprint>footprints:push-button-SMD-3.7x6.0</footprint>
+      <fields>
+        <field name="kicost:Manf">C&amp;K</field>
+        <field name="kicost:Manf#">RS-282G05A3-SM RT</field>
+        <field name="kicost:Desc">SWITCH TACTILE SPST-NO 0.05A 12V</field>
+      </fields>
+      <libsource lib="library" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58263336</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>FLASH</value>
+      <footprint>footprints:push-button-SMD-3.7x6.0</footprint>
+      <fields>
+        <field name="kicost:Manf">C&amp;K</field>
+        <field name="kicost:Manf#">RS-282G05A3-SM RT</field>
+        <field name="kicost:Desc">SWITCH TACTILE SPST-NO 0.05A 12V</field>
+      </fields>
+      <libsource lib="library" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582633D4</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603JR-0710KL</field>
+        <field name="kicost:Desc">RES SMD 10K OHM 5% 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582635DC</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603JR-0710KL</field>
+        <field name="kicost:Desc">RES SMD 10K OHM 5% 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58263618</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>0R</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603JR-070RL</field>
+        <field name="kicost:Desc">RES SMD 0.0OHM JUMPER 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5826427A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603JR-0710KL</field>
+        <field name="kicost:Desc">RES SMD 10K OHM 5% 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58265AB8</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TPL5111</value>
+      <footprint>footprints:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tpl5111.pdf</datasheet>
+      <fields>
+        <field name="kicost:Manf#">TPL5111DDCT</field>
+        <field name="kicost:Manf">Texas Instruments</field>
+        <field name="kicost:Desc">IC TIMER W/WATCHDOG 6-SOT</field>
+      </fields>
+      <libsource lib="library" part="TPL5111"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58274837</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>174k</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603FR-07174KL</field>
+        <field name="kicost:Desc">RES SMD 174K OHM 1% 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58274F1B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>140k</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603FR-07140KL</field>
+        <field name="kicost:Desc">RES SMD 140K OHM 1% 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58274FDB</tstamp>
+    </comp>
+    <comp ref="BT2">
+      <value>Battery</value>
+      <footprint>footprints:Keystone_1015_Holder_Battery_AA</footprint>
+      <fields>
+        <field name="kicost:Manf">Keystone Electronics</field>
+        <field name="kicost:Manf#">1015</field>
+        <field name="kicost:Desc">HOLDER BATTERY AA</field>
+      </fields>
+      <libsource lib="library" part="Battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58275EFF</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>footprints:C_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Murata Electronics</field>
+        <field name="kicost:Manf#">GRM188R71C104KA01D</field>
+        <field name="kicost:Desc">CAP CER 0.1UF 16V X7R 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58276623</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>footprints:C_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Murata Electronics</field>
+        <field name="kicost:Manf#">GRM188R71C104KA01D</field>
+        <field name="kicost:Desc">CAP CER 0.1UF 16V X7R 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58276AB5</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>HDC1080</value>
+      <footprint>footprints:WSON-6-PAD</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/hdc1080.pdf</datasheet>
+      <fields>
+        <field name="kicost:Manf">Texas Instruments</field>
+        <field name="kicost:Manf#">HDC1080DMBT</field>
+        <field name="kicost:Desc">SENSOR HUMI/TEMP 3.3V I2C 2% SMD</field>
+      </fields>
+      <libsource lib="library" part="HDC1080"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5827561D</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>footprints:C_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Murata Electronics</field>
+        <field name="kicost:Manf#">GRM188R71C104KA01D</field>
+        <field name="kicost:Desc">CAP CER 0.1UF 16V X7R 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58278675</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LPS25HB</value>
+      <footprint>footprints:ST_LPS25HB</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/9a/4c/aa/72/1f/45/4e/24/DM00141379.pdf/files/DM00141379.pdf/jcr:content/translations/en.DM00141379.pdf</datasheet>
+      <fields>
+        <field name="kicost:Manf">STMicroelectronics</field>
+        <field name="kicost:Manf#">LPS25HBTR</field>
+        <field name="kicost:Desc">IC MEMS PRESSURE SENSOR 10HCLGA</field>
+      </fields>
+      <libsource lib="library" part="LPS25HB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582794E2</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>footprints:C_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Murata Electronics</field>
+        <field name="kicost:Manf#">GRM188R71C104KA01D</field>
+        <field name="kicost:Desc">CAP CER 0.1UF 16V X7R 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58279FB1</tstamp>
+    </comp>
+    <comp ref="W1">
+      <value>PRES_INT</value>
+      <footprint>footprints:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="library" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5827A73B</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603JR-0710KL</field>
+        <field name="kicost:Desc">RES SMD 10K OHM 5% 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5827BC1F</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>TSL2561</value>
+      <footprint>footprints:WDFN-6_2x2mm_Pitch0.65mm</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Austriamicrosystems%20PDFs/TSL256x.pdf</datasheet>
+      <fields>
+        <field name="kicost:Manf">AMS-TAOS USA Inc.</field>
+        <field name="kicost:Manf#">TSL2561FN</field>
+        <field name="kicost:Desc">IC LIGHT TO DGTL CONV 6-DFN</field>
+      </fields>
+      <libsource lib="library" part="TSL2561"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5827C986</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>footprints:C_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Murata Electronics</field>
+        <field name="kicost:Manf#">GRM188R71C104KA01D</field>
+        <field name="kicost:Desc">CAP CER 0.1UF 16V X7R 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5827CADD</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603JR-0710KL</field>
+        <field name="kicost:Desc">RES SMD 10K OHM 5% 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58278E3E</tstamp>
+    </comp>
+    <comp ref="W3">
+      <value>AMB_INT</value>
+      <footprint>footprints:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="library" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582795A0</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>VEML6070</value>
+      <footprint>footprints:OPLGA6</footprint>
+      <fields>
+        <field name="kicost:Manf">Vishay Semiconductor Opto Division</field>
+        <field name="kicost:Manf#">VEML6070</field>
+        <field name="kicost:Desc">IC UV LIGHT SENSOR I2C 8OPLGA</field>
+      </fields>
+      <libsource lib="library" part="VEML6070"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58279E7D</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>270k</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603FR-07270KL</field>
+        <field name="kicost:Desc">RES SMD 270K OHM 1% 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5827A069</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>footprints:C_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Murata Electronics</field>
+        <field name="kicost:Manf#">GRM188R71C104KA01D</field>
+        <field name="kicost:Desc">CAP CER 0.1UF 16V X7R 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5827B001</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603JR-0710KL</field>
+        <field name="kicost:Desc">RES SMD 10K OHM 5% 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5827B3E1</tstamp>
+    </comp>
+    <comp ref="W2">
+      <value>UV_INT</value>
+      <footprint>footprints:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="library" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5827B721</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Hearthbeat</value>
+      <footprint>footprints:LED_0805</footprint>
+      <fields>
+        <field name="kicost:Manf">Lite-On Inc.</field>
+        <field name="kicost:Manf#">LTST-C170KFKT</field>
+        <field name="kicost:Desc">LED ORANGE CLEAR 0805 SMD</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5827C314</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>footprints:R_0805</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0805JR-071KL</field>
+        <field name="kicost:Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5827C682</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X04</value>
+      <footprint>footprints:Pin_Header_Straight_1x04</footprint>
+      <fields>
+        <field name="kicost:ignore">true</field>
+      </fields>
+      <libsource lib="library" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5827965B</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP3021</value>
+      <footprint>footprints:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf</datasheet>
+      <fields>
+        <field name="kicost:Manf">Microchip Technology</field>
+        <field name="kicost:Manf#">MCP3021A5T-E/OT</field>
+        <field name="kicost:Desc">IC ADC 10BIT 2.7V 1CH SOT23-5</field>
+      </fields>
+      <libsource lib="library" part="MCP3021"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5829F922</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>footprints:C_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Murata Electronics</field>
+        <field name="kicost:Manf#">GRM188R71C104KA01D</field>
+        <field name="kicost:Desc">CAP CER 0.1UF 16V X7R 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5829FB48</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603FR-071KL</field>
+        <field name="kicost:Desc">RES SMD 1K OHM 1% 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582A027A</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>390k</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603FR-07390KL</field>
+        <field name="kicost:Desc">RES SMD 390K OHM 1% 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582A031D</tstamp>
+    </comp>
+    <comp ref="W4">
+      <value>GPIO_12</value>
+      <footprint>footprints:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="library" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582A5887</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100uF</value>
+      <footprint>footprints:TantalC_SizeB_EIA-3528_Reflow</footprint>
+      <fields>
+        <field name="kicost:Manf">AVX Corporation</field>
+        <field name="kicost:Manf#">F930J107MBA</field>
+        <field name="kicost:Desc">CAP TANT 100UF 6.3V 20% 1411</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582A77A8</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1M</value>
+      <footprint>footprints:R_0603</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0603JR-071ML</field>
+        <field name="kicost:Desc">RES SMD 1M OHM 5% 1/10W 0603</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582A9323</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>M_DRV</value>
+      <footprint>footprints:Tact_Switch_Top_PTS820</footprint>
+      <fields>
+        <field name="kicost:Manf">C&amp;K</field>
+        <field name="kicost:Manf#">PTS820 J15M SMTR LFS</field>
+        <field name="kicost:Desc">SWITCH TACTILE SPST-NO 0.05A 12V</field>
+      </fields>
+      <libsource lib="library" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582ABB2E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>PWR</value>
+      <footprint>footprints:LED_0805</footprint>
+      <fields>
+        <field name="kicost:Manf">Lite-On Inc.</field>
+        <field name="kicost:Manf#">LTST-C171KRKT</field>
+        <field name="kicost:Desc">LED RED CLEAR 0805 SMD</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582AEE7A</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>footprints:R_0805</footprint>
+      <fields>
+        <field name="kicost:Manf">Yageo</field>
+        <field name="kicost:Manf#">RC0805JR-071KL</field>
+        <field name="kicost:Desc">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582AEE82</tstamp>
+    </comp>
+    <comp ref="W5">
+      <value>L</value>
+      <footprint>footprints:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="library" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582B28A0</tstamp>
+    </comp>
+    <comp ref="W6">
+      <value>DONE</value>
+      <footprint>footprints:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="library" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582B294C</tstamp>
+    </comp>
+    <comp ref="W7">
+      <value>LOWBATT</value>
+      <footprint>footprints:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="library" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582B29FC</tstamp>
+    </comp>
+    <comp ref="W8">
+      <value>BATT_VOUT</value>
+      <footprint>footprints:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="library" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582B6256</tstamp>
+    </comp>
+    <comp ref="W10">
+      <value>SDA</value>
+      <footprint>footprints:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="library" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582B7244</tstamp>
+    </comp>
+    <comp ref="W11">
+      <value>SCL</value>
+      <footprint>footprints:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <fields>
+        <field name="kicost:ignore">true</field>
+      </fields>
+      <libsource lib="library" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582B7433</tstamp>
+    </comp>
+    <comp ref="W9">
+      <value>DRVn</value>
+      <footprint>footprints:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="library" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582B7A9E</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>JUMPER</value>
+      <footprint>footprints:SJ_OPEN</footprint>
+      <fields>
+        <field name="kicost:ignore">false</field>
+      </fields>
+      <libsource lib="library" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582BBB4B</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>FIDUCIAL</value>
+      <footprint>footprints:Fiducial</footprint>
+      <libsource lib="library" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5859AC78</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>FIDUCIAL</value>
+      <footprint>footprints:Fiducial</footprint>
+      <libsource lib="library" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5859ADA4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="library" part="Battery">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="CONN_01X04">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="CP1_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="ESP8266-ESP-03">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP8266-ESP-03</field>
+        <field name="Footprint">ESP8266-ESP-03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="3" name="TX" type="input"/>
+        <pin num="4" name="RX" type="input"/>
+        <pin num="5" name="GPIO16" type="input"/>
+        <pin num="6" name="CH_PD" type="input"/>
+        <pin num="7" name="WIFI_ANT" type="input"/>
+        <pin num="8" name="VCC" type="input"/>
+        <pin num="9" name="GPIO14" type="input"/>
+        <pin num="10" name="GPIO12" type="input"/>
+        <pin num="11" name="GPIO13" type="input"/>
+        <pin num="12" name="GPIO15" type="input"/>
+        <pin num="13" name="GPIO2" type="input"/>
+        <pin num="14" name="GPIO0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="FIDUCIAL">
+      <description>Fiducial</description>
+      <footprints>
+        <fp>Fiducial</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">FIDUCIAL</field>
+      </fields>
+    </libpart>
+    <libpart lib="library" part="HDC1080">
+      <description>SENSOR HUMI/TEMP 3.3V I2C 2% SMD</description>
+      <docs>http://www.ti.com/lit/ds/symlink/hdc1080.pdf</docs>
+      <footprints>
+        <fp>DMB</fp>
+        <fp>PWSON-6</fp>
+        <fp>PWSON6</fp>
+        <fp>PWSON*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HDC1080</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="PAD" name="~" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="INDUCTOR_SMALL">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="Jumper_NO_Small">
+      <description>Jumper normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="LPS25HB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LPS25HB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd_IO" type="power_in"/>
+        <pin num="2" name="SCL/SPC" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SDA/SDI/SDO" type="BiDi"/>
+        <pin num="5" name="SDO/SA0" type="output"/>
+        <pin num="6" name="CS" type="input"/>
+        <pin num="7" name="INT_DRDY" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="Led_Small">
+      <description>Led</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="MCP3021">
+      <description>ADC 10BIT I2C INTERFACE SOT23-5</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf</docs>
+      <footprints>
+        <fp>SOT-23-5</fp>
+        <fp>SOT23*</fp>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3021</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="AIN" type="input"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+        <pin num="5" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="R_Small">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="SW_PUSH">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="TPL511X">
+      <aliases>
+        <alias>TPL5110</alias>
+        <alias>TPL5111</alias>
+      </aliases>
+      <description>IC TIMER W/WATCHDOG 6-SOT</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tpl5110.pdf</docs>
+      <footprints>
+        <fp>SOT-23-6</fp>
+        <fp>TSOT-23-6</fp>
+        <fp>6-SOT</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPL511X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="DELAY/M_DRV" type="input"/>
+        <pin num="4" name="DONE" type="input"/>
+        <pin num="5" name="DRVn" type="output"/>
+        <pin num="6" name="EN/ONE_SHOT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="TPS6102X">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TPS6102X</field>
+      </fields>
+      <pins>
+        <pin num="0" name="PAD" type="power_in"/>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="VOUT" type="power_out"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="LBO" type="output"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VBAT" type="power_in"/>
+        <pin num="7" name="LBI" type="input"/>
+        <pin num="8" name="PS" type="input"/>
+        <pin num="9" name="SW" type="output"/>
+        <pin num="10" name="PGND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="TSL256X">
+      <aliases>
+        <alias>TSL2561</alias>
+        <alias>TSL2560</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSL256X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="ADDR" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="INT" type="output"/>
+        <pin num="6" name="SDA" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="library" part="VEML6070">
+      <description>IC UV LIGHT SENSOR I2C 8OPLGA </description>
+      <docs>http://www.vishay.com/docs/84277/veml6070.pdf</docs>
+      <footprints>
+        <fp>OPLGA-6*</fp>
+        <fp>OPLGA6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VEML6070</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="ACK" type="output"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="RSET" type="input"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="library">
+      <uri>/Users/mhamityanik/Documents/KiCad/ESP-03_weather/library/library.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="2" name="/RX">
+      <node ref="P1" pin="4"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="3" name="/TX">
+      <node ref="P1" pin="3"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(IC1-Pad9)">
+      <node ref="IC1" pin="9"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="5" name="/M_DRV">
+      <node ref="U2" pin="3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="6" name="+3V3">
+      <node ref="C3" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U6" pin="6"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U5" pin="10"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U5" pin="6"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="7" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="8" name="/GPIO_12">
+      <node ref="W4" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C4" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="BT2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="8"/>
+      <node ref="R17" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U5" pin="9"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="IC1" pin="10"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="IC1" pin="0"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D2-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="11" name="+BATT">
+      <node ref="BT1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="L1" pin="1"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="12" name="/SCL">
+      <node ref="W11" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U7" pin="4"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="13" name="/SDA">
+      <node ref="U6" pin="3"/>
+      <node ref="W10" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U4" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="14" name="/BATT_VOUT">
+      <node ref="U3" pin="3"/>
+      <node ref="R10" pin="2"/>
+      <node ref="W8" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="15" name="/LBI">
+      <node ref="R12" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="16" name="/FB">
+      <node ref="R15" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="17" name="/DONE">
+      <node ref="W6" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="18" name="/L">
+      <node ref="W5" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="19" name="/LOWBATT">
+      <node ref="U1" pin="9"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="W7" pin="1"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="20" name="/DRVn">
+      <node ref="R10" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="W9" pin="1"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="W2" pin="1"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="23" name="Net-(BT1-Pad2)">
+      <node ref="BT1" pin="2"/>
+      <node ref="BT2" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="25" name="Net-(R18-Pad2)">
+      <node ref="U7" pin="5"/>
+      <node ref="W3" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="27" name="Net-(U4-PadPAD)">
+      <node ref="U4" pin="PAD"/>
+    </net>
+    <net code="28" name="Net-(U5-Pad7)">
+      <node ref="W1" pin="1"/>
+      <node ref="U5" pin="7"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map LPS25H
+#######################################
+
+#######################################
+# Library (KEYWORD3)
+#######################################
+smePressure	     KEYWORD3
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	    KEYWORD2
+activate	    KEYWORD2
+deactivate	    KEYWORD2
+readPressure	    KEYWORD2
+readTemperature	    KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

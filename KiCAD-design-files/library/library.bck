@@ -1,0 +1,74 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3V3
+K POWER, PWR
+$ENDCMP
+#
+$CMP +BATT
+K POWER, PWR
+$ENDCMP
+#
+$CMP CONN_01X04
+D Connector 01x04
+$ENDCMP
+#
+$CMP CP1_Small
+D Polarised capacitor
+$ENDCMP
+#
+$CMP C_Small
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP GND
+K POWER, PWR
+$ENDCMP
+#
+$CMP HDC1080
+D SENSOR HUMI/TEMP 3.3V I2C 2% SMD
+K hdc1080, temperature sensor, humidity sensor
+F http://www.ti.com/lit/ds/symlink/hdc1080.pdf
+$ENDCMP
+#
+$CMP Jumper_NO_Small
+D Jumper normally open
+K Jumper, Link
+$ENDCMP
+#
+$CMP Led_Small
+D Led
+$ENDCMP
+#
+$CMP MCP3021
+D ADC 10BIT I2C INTERFACE SOT23-5
+K adc, analog to digital
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf
+$ENDCMP
+#
+$CMP R_Small
+D Resistor
+$ENDCMP
+#
+$CMP SW_PUSH
+D Button
+K Switch
+$ENDCMP
+#
+$CMP TEST_1P
+D point
+K point tp
+$ENDCMP
+#
+$CMP TPL511X
+D IC TIMER W/WATCHDOG 6-SOT
+K TPL5110, TPL5111, low power, watchdog timer
+F http://www.ti.com/lit/ds/symlink/tpl5110.pdf
+$ENDCMP
+#
+$CMP VEML6070
+D IC UV LIGHT SENSOR I2C 8OPLGA 
+K uv sensor, light sensor
+F http://www.vishay.com/docs/84277/veml6070.pdf
+$ENDCMP
+#
+#End Doc Library
