@@ -21,3 +21,6 @@ Yet another ESP8266 (ESP-03) based ultra low power wi-fi weather logger with 4 s
 
 ## Blynk Integration
 <img src="https://raw.githubusercontent.com/hamityanik/ULP-Weather-Logger/master/Images/Blynk-App1.png" width="49%"> <img src="https://raw.githubusercontent.com/hamityanik/ULP-Weather-Logger/master/Images/Blynk-App2.png" width="49%">
+
+## How can you buy one?
+<a href="https://www.tindie.com/stores/iohippo/?ref=offsite_badges&utm_source=sellers_iohippo&utm_medium=badges&utm_campaign=badge_small"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-smalls.png"></a>
