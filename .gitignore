@@ -1,0 +1,8 @@
+
+*.bak
+
+*.kicad_pcb-bak
+
+KiCAD-design-files/panelized.pro
+
+KiCAD-design-files/panelized.kicad_pcb

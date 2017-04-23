@@ -56,9 +56,9 @@
     (die_length 10.53846) (zone_connect 2))
   (pad 0 thru_hole circle (at 0.5 0.75) (size 0.5842 0.5842) (drill 0.3302) (layers *.Cu *.Mask)
     (die_length -2147.483648) (zone_connect 2))
-  (model ${KIPRJMOD}/packages3d/tps61025.wrl
+  (model ${KIPRJMOD}/packages3d/TI_DRC_S-PVSON-N10.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz 0 0 0))
   )
 )
